@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: qonnectit/unifi-to-librenms-detection
+  IMAGE_NAME: qonnectit/unifi-librenms-sync
 
 jobs:
   docker:
