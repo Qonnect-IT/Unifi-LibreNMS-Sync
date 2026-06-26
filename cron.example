@@ -1,1 +1,1 @@
-*/30 * * * * cd /opt/unifi-librenms-sync && /usr/bin/docker compose run --rm unifi-librenms-sync >> /var/log/unifi-librenms-sync.log 2>&1
+*/30 * * * * root cd /opt/deployment/unifi-librenms-sync && /usr/bin/docker compose run --rm unifi-librenms-sync >> /var/log/unifi-librenms-sync.log 2>&1'
